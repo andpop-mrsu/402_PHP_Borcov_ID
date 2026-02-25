@@ -1,0 +1,24 @@
+{
+    "name": "zerollka/calculator",
+    "description": "Console calculator game",
+    "license": "MIT",
+   "autoload": {
+  "files": [
+    "src/Controller.php",
+    "src/View.php"
+  ]
+},
+    "bin": [
+  "bin/calculator"
+],
+    "authors": [
+        {
+            "name": "ZerolLka",
+            "email": "masterdew4@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.7"
+    }
+}
