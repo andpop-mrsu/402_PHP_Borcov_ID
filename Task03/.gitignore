@@ -1,0 +1,5 @@
+vendor/
+composer.lock
+*.log
+*.sqlite
+node_modules/
